@@ -1,0 +1,24 @@
+[
+    {
+        "role": "Arts",
+        "organisation": "10th",
+        "startDate": "march 2018",
+        "endDate": "march 2019",
+        "imageSrc": "history/10th.png"
+    },
+    {
+        "role": "Arts with Maths",
+        "organisation": "12th",
+        "startDate": "march 2020",
+        "endDate": "june 2021",
+        "imageSrc": "history/12th.png"
+    },
+    {
+        "role": "BCA",
+        "organisation": "Pandit Neki Ram Sharma Government College",
+        "startDate": "Sep 2022",
+        "endDate": "Present",
+        "experiences": ["Create projects"],
+        "imageSrc": "history/bca.jpg"
+    }
+]

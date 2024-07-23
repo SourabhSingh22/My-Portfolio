@@ -1,0 +1,45 @@
+@import "../../vars.css";
+
+.container{
+    margin-top: 76px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    position: relative;
+}
+.title::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #f4002d, #afdada);
+    transition: width 0.3s ease;
+}
+.title:hover{
+    cursor: context-menu;
+}
+.title:hover::before{
+    width: 100%;
+}
+
+
+.projects{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}

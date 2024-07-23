@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Weather App",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest ",
+        "skills":  ["HTML", "CSS", "JavaScript"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/SourabhSingh22/sourabhWeatherApp.github.io-.git"
+    },
+    {
+        "title": "Digital Clock",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/SourabhSingh22/Digital_Clock.git"
+    },
+    {
+        "title": "Reverse Number",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest",
+        "skills":  ["HTML", "CSS", "JavaScript"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/SourabhSingh22/Reverse-Number.git"
+    }
+]
