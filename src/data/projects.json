@@ -8,19 +8,19 @@
         "source": "https://github.com/SourabhSingh22/sourabhWeatherApp.github.io-.git"
     },
     {
-        "title": "Digital Clock",
+        "title": "My Portfolio",
         "imageSrc": "projects/project.png",
         "description": "This is a project made to learn the latest",
-        "skills": ["HTML", "CSS", "JavaScript"],
-        "demo": "https://www.example.com",
-        "source": "https://github.com/SourabhSingh22/Digital_Clock.git"
+        "skills": ["HTML", "CSS", "JavaScript","React"],
+        "demo": "https://sourabhsinghportfolio.netlify.app/",
+        "source": "https://github.com/SourabhSingh22/My-Portfolio.git"
     },
     {
-        "title": "Reverse Number",
+        "title": "Gemini Clone",
         "imageSrc": "projects/project.png",
         "description": "This is a project made to learn the latest",
-        "skills":  ["HTML", "CSS", "JavaScript"],
-        "demo": "https://www.example.com",
-        "source": "https://github.com/SourabhSingh22/Reverse-Number.git"
+        "skills":  ["HTML", "CSS", "JavaScript", "React"],
+        "demo": "https://gemini-clone-saurabh.netlify.app/",
+        "source": "https://github.com/SourabhSingh22/Gemini_clone.git"
     }
 ]
