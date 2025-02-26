@@ -1,13 +1,11 @@
 [
     {
-        "role": "Arts",
         "organisation": "10th",
         "startDate": "march 2018",
         "endDate": "march 2019",
         "imageSrc": "history/10th.png"
     },
     {
-        "role": "Arts with Maths",
         "organisation": "12th",
         "startDate": "march 2020",
         "endDate": "june 2021",

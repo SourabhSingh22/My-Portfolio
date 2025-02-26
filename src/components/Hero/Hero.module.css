@@ -9,6 +9,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    gap: 30px;
 }
 
 .content{
@@ -33,9 +34,13 @@
 }
 
 .description{
-    font-size: 30px;
+    font-size: 27px;
+    border-radius: 15px 15px 0px 15px;
     font-family: var(--font-roboto);
+    padding: 15px;
     margin-bottom: 52px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
 }
 
 .contactBtn{
@@ -48,16 +53,24 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     color: var(--color-text);
     background: linear-gradient(to right, black, blue);
+    /* transition: 0.5s ease-in-out; */
+}
+.contactBtn:hover{
+    background: linear-gradient(#637a7a, #eae3e3);
+    color: black;
+    transition: 0.5s ease-in-out;
 }
 
 .heroImg{
-    width: 33%;
+    width: 30%;
     z-index: 1;
     border-radius: 50%;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    box-shadow: 0 4px 10px rgba(240, 238, 238, 0.2);
+   
 }
 
 @keyframes floating{
