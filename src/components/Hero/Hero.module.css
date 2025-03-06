@@ -24,13 +24,11 @@
     font-size: 72px;
     font-weight: 800;
     padding-bottom: 33px;
-    /* color: black; */
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
-    /* -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
-    color: transparent;
+    
+    /* color: transparent; */
     background-clip: text;
+    text-shadow: 12px 0px 4px rgba(0, 0, 0, 0.3);
 }
 
 .description{
@@ -41,6 +39,15 @@
     margin-bottom: 52px;
     background: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
+    background-image: linear-gradient(90deg, rgba(127, 200, 236, 0.42) 0%, rgba(67, 72, 62, 0) 100%);
+    transition: 0.4s;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.description:hover{
+    background-size: 100% 100%;
 }
 
 .contactBtn{
