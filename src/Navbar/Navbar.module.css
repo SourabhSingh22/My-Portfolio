@@ -44,25 +44,50 @@
     display: flex;
 }
 
-.menuItems{
+.menuItems {
     display: flex;
-    gap: 47px;
+    gap: 30px;
     list-style: none;
-}
-
-.menuItems a{
-    font-size: 25px;
-    color: var(--color-text);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .menuItems li a {
+    position: relative;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: white;
     text-decoration: none;
-    /* background-color: var(--color-primary); */
-    background: linear-gradient(to left, rgb(40, 38, 38), rgb(37, 37, 252));
-    padding: 6px 12px;
-    border-radius: 15px;
-}
-.menuItems li a:hover{
-   background: linear-gradient(#637a7a, #eae3e3);
-   color: black;
-}
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 0.4s ease;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .menuItems li a:hover {
+    color: #00ffff;
+    box-shadow: 0 0 12px #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+  }
+  
+  
+  .menuOpen {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  
+
 .menuBtn{
     display: none;
 }
