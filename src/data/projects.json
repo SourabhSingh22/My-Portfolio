@@ -8,12 +8,12 @@
         "source": "https://github.com/SourabhSingh22/Blinkit-Clone.git"
     },
     {
-        "title": "My Portfolio",
+        "title": "Doctor Appointment Booking System",
         "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest",
-        "skills": ["HTML", "CSS", "JavaScript","React"],
-        "demo": "https://sourabhsinghportfolio.netlify.app/",
-        "source": "https://github.com/SourabhSingh22/My-Portfolio.git"
+        "description": "This is a MERN stack project",
+        "skills": ["MERN Stack"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/SourabhSingh22/doctor_appointment_webApp-.git"
     },
     {
         "title": "Gemini Clone",
