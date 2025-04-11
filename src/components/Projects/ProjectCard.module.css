@@ -25,7 +25,7 @@
 .title{
     display: inline-block;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     background: linear-gradient(90deg, #7bea88, #e21e1e );
     background-clip: text;
     color: transparent;

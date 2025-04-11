@@ -2,7 +2,7 @@
     {
         "title": "Online Grocery Delivery Platform",
         "imageSrc": "projects/project.png",
-        "description": "This is a MERN stack project",
+        "description": "This is a MERN Stack project",
         "skills":  ["MERN Stack"],
         "demo": "https://www.example.com",
         "source": "https://github.com/SourabhSingh22/Blinkit-Clone.git"
@@ -10,7 +10,7 @@
     {
         "title": "Doctor Appointment Booking System",
         "imageSrc": "projects/project.png",
-        "description": "This is a MERN stack project",
+        "description": "This is a MERN Stack project",
         "skills": ["MERN Stack"],
         "demo": "https://www.example.com",
         "source": "https://github.com/SourabhSingh22/doctor_appointment_webApp-.git"
