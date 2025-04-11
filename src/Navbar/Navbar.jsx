@@ -4,8 +4,11 @@ import { getImageUrl } from '../utils';
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    
+    const [loading, setLoading] = useState(false);
 
     return (
+
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">Portfolio</a>
             <div className={styles.menu}>

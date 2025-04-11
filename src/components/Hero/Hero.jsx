@@ -6,7 +6,8 @@ export const Hero = () => {
 
   const text = "Hi, I'm Saurabh";
   const [displayText, setDisplayText] = useState("");
-  const speed = 150; 
+//   const speed = 150; 
+
 
   useEffect(() => {
     let i = 0;
@@ -15,10 +16,11 @@ export const Hero = () => {
       setDisplayText(text.slice(0, i + 1)); 
       i++;
       if (i === text.length) clearInterval(interval);  
-    }, speed);
+    }, 150);
 
         return () => clearInterval(interval);
     },[])
+
 
 
 

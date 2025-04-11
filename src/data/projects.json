@@ -1,11 +1,11 @@
 [
     {
-        "title": "Weather App",
+        "title": "Online Grocery Delivery Platform",
         "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest ",
-        "skills":  ["HTML", "CSS", "JavaScript"],
+        "description": "This is a MERN stack project",
+        "skills":  ["MERN Stack"],
         "demo": "https://www.example.com",
-        "source": "https://github.com/SourabhSingh22/sourabhWeatherApp.github.io-.git"
+        "source": "https://github.com/SourabhSingh22/Blinkit-Clone.git"
     },
     {
         "title": "My Portfolio",
