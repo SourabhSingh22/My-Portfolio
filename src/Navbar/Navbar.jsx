@@ -8,7 +8,6 @@ export const Navbar = () => {
     const [loading, setLoading] = useState(false);
 
     return (
-
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">Portfolio</a>
             <div className={styles.menu}>

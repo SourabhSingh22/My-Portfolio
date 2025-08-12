@@ -4,7 +4,7 @@
         "imageSrc": "projects/project.png",
         "description": "This is a MERN Stack project",
         "skills":  ["MERN Stack"],
-        "demo": "https://www.example.com",
+        "demo": "https://pickuick-ms.vercel.app/",
         "source": "https://github.com/SourabhSingh22/Blinkit-Clone.git"
     },
     {
